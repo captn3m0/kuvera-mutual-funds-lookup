@@ -3,6 +3,8 @@ on:
   schedule:
     # Run every 2 hours
     - cron: '30 */2 * * *'
+permissions:
+  contents: write
 jobs:
   update:
     name: Update data
