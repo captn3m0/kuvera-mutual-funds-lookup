@@ -7,3 +7,5 @@ kuvera:
 	sort -uo _.csv _.csv
 	cat src/header.csv _.csv > data.csv
 	rm _.csv
+
+all: kuvera
